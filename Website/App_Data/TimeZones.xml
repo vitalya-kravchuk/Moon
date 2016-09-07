@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TimeZones>
+  <TimeZone Value="-12" Text="(GMT -12:00) Эневеток, Кваджалейн" />
+
+  <TimeZone Value="-11" Text="(GMT -11:00) Остров Мидуэй, Самоа" />
+  <TimeZone Value="-10" Text="(GMT -10:00) Гавайи" />
+  <TimeZone Value="-9" Text="(GMT -9:00) Аляска" />
+  <TimeZone Value="-8" Text="(GMT -8:00) Тихоокеанское время (США и Канада), Тихуана" />
+  <TimeZone Value="-7" Text="(GMT -7:00) Горное время (США и Канада), Аризона" />
+  <TimeZone Value="-6" Text="(GMT -6:00) Центральное время (США и Канада), Мехико" />
+  <TimeZone Value="-5" Text="(GMT -5:00) Восточное время (США и Канада), Богота, Лима" />
+  <TimeZone Value="-4.5" Text="(GMT -4:30) Каракас" />
+  <TimeZone Value="-4" Text="(GMT -4:00) Атлантическое время (Канада), Ла Пас" />
+
+  <TimeZone Value="-3.5" Text="(GMT -3:30) Ньюфаундленд" />
+  <TimeZone Value="-3" Text="(GMT -3:00) Бразилия, Буэнос-Айрес, Джорджтаун" />
+  <TimeZone Value="-2" Text="(GMT -2:00) Среднеатлантическое время" />
+  <TimeZone Value="-1" Text="(GMT -1:00) Азорские острова, острова Зелёного Мыса" />
+  <TimeZone Value="0" Text="(GMT) Дублин, Лондон, Лиссабон, Касабланка, Эдинбург" />
+  <TimeZone Value="1" Text="(GMT +1:00) Брюссель, Копенгаген, Мадрид, Париж, Берлин" />
+  <TimeZone Value="2" Text="(GMT +2:00) Афины, Киев, Минск, Бухарест, Рига, Таллин" />
+  <TimeZone Value="3" Text="(GMT +3:00) Москва, Санкт-Петербург, Волгоград" />
+  <TimeZone Value="3.5" Text="(GMT +3:30) Тегеран" />
+
+  <TimeZone Value="4" Text="(GMT +4:00) Абу-Даби, Баку, Тбилиси, Ереван" />
+  <TimeZone Value="4.5" Text="(GMT +4:30) Кабул" />
+  <TimeZone Value="5" Text="(GMT +5:00) Екатеринбург, Исламабад, Карачи, Ташкент" />
+  <TimeZone Value="5.5" Text="(GMT +5:30) Мумбай, Колката, Ченнаи, Нью-Дели" />
+  <TimeZone Value="5.75" Text="(GMT +5:45) Катманду" />
+  <TimeZone Value="6" Text="(GMT +6:00) Омск, Новосибирск, Алма-Ата, Астана" />
+  <TimeZone Value="6.5" Text="(GMT +6:30) Янгон, Кокосовые острова" />
+  <TimeZone Value="7" Text="(GMT +7:00) Красноярск, Норильск, Бангкок, Ханой, Джакарта" />
+  <TimeZone Value="8" Text="(GMT +8:00) Иркутск, Пекин, Перт, Сингапур, Гонконг" />
+
+  <TimeZone Value="9" Text="(GMT +9:00) Якутск, Токио, Сеул, Осака, Саппоро" />
+  <TimeZone Value="9.5" Text="(GMT +9:30) Аделаида, Дарвин" />
+  <TimeZone Value="10" Text="(GMT +10:00) Владивосток, Восточная Австралия, Гуам" />
+  <TimeZone Value="11" Text="(GMT +11:00) Магадан, Сахалин, Соломоновы Острова" />
+  <TimeZone Value="12" Text="(GMT +12:00) Камчатка, Окленд, Уэллингтон, Фиджи" />
+</TimeZones>

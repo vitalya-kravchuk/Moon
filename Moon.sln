@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonCalc", "MoonCalc\MoonCalc.csproj", "{82695340-2398-4329-9F2E-62276CE10A1E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Moon", "http://localhost/Moon", "{B9034844-55CE-4BE9-AC08-C5F729042830}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{82695340-2398-4329-9f2e-62276ce10a1e}|MoonCalc.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Moon"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Moon\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Moon"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Moon\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Website\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82695340-2398-4329-9F2E-62276CE10A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82695340-2398-4329-9F2E-62276CE10A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82695340-2398-4329-9F2E-62276CE10A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82695340-2398-4329-9F2E-62276CE10A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9034844-55CE-4BE9-AC08-C5F729042830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9034844-55CE-4BE9-AC08-C5F729042830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9034844-55CE-4BE9-AC08-C5F729042830}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9034844-55CE-4BE9-AC08-C5F729042830}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+2016-02-12 21:59:25::3678 INFO [1] ASP.global_asax Application_Start Ц OK 
+2016-02-12 21:59:26::8969 INFO [8] ASP.global_asax Session_Start Ц ::1 
+2016-02-12 21:59:27::3504 INFO [8] Location GetCountryCodeByIP Ц ::1 
+2016-02-12 21:59:27::8923 INFO [8] Countries GetByCode Ц EU => not found 
+2016-02-12 21:59:27::9766 INFO [8] Countries GetByCode Ц UA => CountryID: 33; Name: ”краина; Code: UA; Latitude: 49; Longitude: 32; TimeZone: 2; DST: True;  
+2016-02-12 21:59:28::1060 INFO [8] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.7586084 
+2016-02-12 21:59:32::2454 INFO [8] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0590390 
+2016-02-12 22:00:56::1590 INFO [8] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0560364 
+2016-02-12 22:01:58::8003 INFO [7] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0520337 
+2016-02-12 22:02:23::2759 INFO [21] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0800487 
+2016-02-12 22:02:41::7201 INFO [8] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0630400 
+2016-02-12 22:02:46::0643 INFO [22] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0690383 
+2016-02-12 22:04:25::7081 INFO [21] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:27, Elapsed: 00:00:00.0480319 
+2016-02-12 22:04:40::9535 INFO [8] BaseControl ReCalculate Ц DT: 02/12/2016 22:04:40, Elapsed: 00:00:00.0430263 
+2016-02-12 22:04:43::6670 INFO [21] RhythmsView GetDefault Ц 00:00:00.0230147 
+2016-02-12 22:06:45::9429 INFO [23] ASP.global_asax Application_End Ц OK 
+2016-02-12 22:08:33::9164 INFO [29] ASP.global_asax Application_Start Ц OK 
+2016-02-12 22:08:36::0532 INFO [23] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:00, Elapsed: 00:00:00.0880602 
+2016-02-12 22:09:07::2803 INFO [21] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:00, Elapsed: 00:00:00.0410274 
+2016-02-12 22:09:13::7480 INFO [21] BaseControl ReCalculate Ц DT: 02/12/2016 21:59:00, Elapsed: 00:00:00.0460323 
+2016-02-12 22:10:04::8814 INFO [22] RhythmsView GetDefault Ц 00:00:00.0230155 
+2016-02-12 22:25:54::4257 INFO [35] ASP.global_asax Session_Start Ц ::1 
+2016-02-12 22:25:54::4667 INFO [35] BaseControl ReCalculate Ц DT: 02/12/2016 22:25:54, Elapsed: 00:00:00.0380249 
+2016-02-12 22:25:58::2733 INFO [35] RhythmsView GetDefault Ц 00:00:00.0240164 
+2016-02-12 22:26:01::1364 INFO [5] RhythmsView GetDefault Ц 00:00:00.0260160 
+2016-02-12 22:26:03::6194 INFO [33] RhythmsView GetDefault Ц 00:00:00.0280158 
+2016-02-12 22:26:27::1143 INFO [35] RhythmsView GetDefault Ц 00:00:00.0300184 
+2016-02-12 22:26:31::1236 INFO [34] RhythmsView GetNewYear Ц 00:00:00.0520322 
+2016-02-12 22:26:33::5891 INFO [31] RhythmsView GetEclipse Ц 00:00:00.0130093 
+2016-02-12 22:26:35::0507 INFO [8] BaseControl ReCalculate Ц DT: 03/09/2016 03:55:36, Elapsed: 00:00:00.0480294 
+2016-02-13 07:52:01::6320 INFO [31] ASP.global_asax Application_End Ц OK 

@@ -1,0 +1,4 @@
+﻿<asp:ImageButton SkinID="OK" runat="server" ImageUrl="Images/Dialog/ok.png"
+    OnMouseOver="tooltip(this, 'OK');" OnMouseOut="tooltipHide(this);"  />
+<asp:ImageButton SkinID="Cancel" runat="server" ImageUrl="Images/Dialog/cancel.png" 
+    OnMouseOver="tooltip(this, 'Отмена');" OnMouseOut="tooltipHide(this);" />

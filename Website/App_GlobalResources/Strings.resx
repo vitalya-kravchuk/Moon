@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChapterTipBeauty" xml:space="preserve">
+    <value>Красота</value>
+  </data>
+  <data name="ChapterTipCommon" xml:space="preserve">
+    <value>Общее</value>
+  </data>
+  <data name="ChapterTipGarden" xml:space="preserve">
+    <value>Сад</value>
+  </data>
+  <data name="ChapterTipHealth" xml:space="preserve">
+    <value>Здоровье</value>
+  </data>
+  <data name="ChapterTipMoney" xml:space="preserve">
+    <value>Деньги</value>
+  </data>
+  <data name="EclipseMoonNo" xml:space="preserve">
+    <value>Нет лунного затмения</value>
+  </data>
+  <data name="EclipseMoonPartial" xml:space="preserve">
+    <value>Лунное частичное затмение</value>
+  </data>
+  <data name="EclipseMoonPartialShade" xml:space="preserve">
+    <value>Лунное полутеневое затмение</value>
+  </data>
+  <data name="EclipseMoonPossiblyPartial" xml:space="preserve">
+    <value>Частичное лунное затмение</value>
+  </data>
+  <data name="EclipseMoonPossiblyPartialShade" xml:space="preserve">
+    <value>Лунное полутеневое затмение</value>
+  </data>
+  <data name="EclipseMoonPossiblyTotal" xml:space="preserve">
+    <value>Лунное полное затмение</value>
+  </data>
+  <data name="EclipseMoonTotal" xml:space="preserve">
+    <value>Полное лунное затмение</value>
+  </data>
+  <data name="EclipseNo" xml:space="preserve">
+    <value>Нет затмения</value>
+  </data>
+  <data name="EclipseSunCentral" xml:space="preserve">
+    <value>Солнечное центральное затмение</value>
+  </data>
+  <data name="EclipseSunNo" xml:space="preserve">
+    <value>Нет солнечного затмения</value>
+  </data>
+  <data name="EclipseSunPartial" xml:space="preserve">
+    <value>Солнечное частичное затмение</value>
+  </data>
+  <data name="EclipseSunPossiblyCentral" xml:space="preserve">
+    <value>Солнечное центральное затмение</value>
+  </data>
+  <data name="EclipseSunPossilbyPartial" xml:space="preserve">
+    <value>Частичное солнечное затмение</value>
+  </data>
+  <data name="MenuTipBlog" xml:space="preserve">
+    <value>Развитие сайта "Мой Лунный Календарь"</value>
+  </data>
+  <data name="MenuTipComment" xml:space="preserve">
+    <value>Отправить сообщение автору сайта</value>
+  </data>
+  <data name="MenuTipHelp" xml:space="preserve">
+    <value>Помощь в использовании сайта. Раздел в стадии разработки</value>
+  </data>
+  <data name="MenuTipBooks" xml:space="preserve">
+    <value>Перечень книг о Лунном Календаре и Астрономии</value>
+  </data>
+  <data name="MenuTipNotify" xml:space="preserve">
+    <value>Отправка на e-mail определенных событий. Раздел в стадии разработки</value>
+  </data>
+  <data name="MenuTipPractice" xml:space="preserve">
+    <value>Магические обряды при Луне. Раздел в стадии разработки</value>
+  </data>
+  <data name="MenuTipRhythm" xml:space="preserve">
+    <value>Лунные ритмы на год или месяц в табличном виде. Раздел в стадии разработки</value>
+  </data>
+  <data name="MenuTipTest" xml:space="preserve">
+    <value>Пройти тест и узнать как влияет на тебя Луна</value>
+  </data>
+  <data name="MenuTipTips" xml:space="preserve">
+    <value>Что лучше всего делать в определенный ритм. Раздел в стадии разработки</value>
+  </data>
+  <data name="MenuTipWhy" xml:space="preserve">
+    <value>Интерестные факты о влиянии Луны на природу</value>
+  </data>
+  <data name="NewYear" xml:space="preserve">
+    <value>Новый Лунный Год</value>
+  </data>
+  <data name="Bull" xml:space="preserve">
+    <value>Быка</value>
+  </data>
+  <data name="Phase" xml:space="preserve">
+    <value>Новолуние (1 фаза)
+Растущая Луна (2 фаза)
+Полнолуние (3 фаза)
+Убывающая Луна (4 фаза)</value>
+  </data>
+  <data name="Rat" xml:space="preserve">
+    <value>Крысы</value>
+  </data>
+  <data name="rtEclipse" xml:space="preserve">
+    <value>Затмения</value>
+  </data>
+  <data name="rtIndividualLunarDay" xml:space="preserve">
+    <value>Индивидуальные лунные сутки</value>
+  </data>
+  <data name="rtLunarDay" xml:space="preserve">
+    <value>Лунные сутки</value>
+  </data>
+  <data name="rtNewYear" xml:space="preserve">
+    <value>Новый Лунный Год</value>
+  </data>
+  <data name="rtPhase" xml:space="preserve">
+    <value>Фазы Луны</value>
+  </data>
+  <data name="rtZodiac" xml:space="preserve">
+    <value>Луна в Зодиаках</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>Будь в ритме!</value>
+  </data>
+  <data name="SymbolOfLunarDay" xml:space="preserve">
+    <value>Светильник
+Рог изобилия
+Леопард
+Древо познания
+Единорог
+Журавль
+Роза ветров
+Феникс
+Летучая мышь
+Фонтан
+Корона
+Сердце
+Кольцо
+Труба
+Змей
+Голубь
+Гроздь винограда
+Зеркало
+Паук
+Орел
+Конь
+Слон
+Крокодил
+Медведь
+Черепаха
+Жаба
+Корабль
+Лотос
+Спрут
+Золотой лебедь</value>
+  </data>
+  <data name="Zodiac" xml:space="preserve">
+    <value>Овен
+Телец
+Близнецы
+Рак
+Лев
+Дева
+Весы
+Скорпион
+Стрелец
+Козерог
+Водолей
+Рыбы</value>
+  </data>
+  <data name="ZodiacIn" xml:space="preserve">
+    <value>в Овне
+в Тельце
+в Близнецах
+в Раке
+во Льве
+в Деве
+в Весах
+в Скорпионе
+в Стрельце
+в Козероге
+в Водолее
+в Рыбах</value>
+  </data>
+  <data name="Cock" xml:space="preserve">
+    <value>Петуха</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Собаки</value>
+  </data>
+  <data name="Dragon" xml:space="preserve">
+    <value>Дракона</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Лошади</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Обезьяны</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Свиньи</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Кролика</value>
+  </data>
+  <data name="Ram" xml:space="preserve">
+    <value>Барана</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Змеи</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Тигра</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Как влияет на на тебя Луна?
+Луна влияет на всех нас, жителей Земли. И все же на одних людей она влияет слабее, а на других сильнее. Итак, по следующему тесту узнаете, в какой степени Вы подвержены влиянию Луны.
+Я очень эмоциональный человек.
+В полнолуние у меня всегда меняется настроение, иногда в это время бывает бессонница и раздражительность.
+Обычно я с первого взгляда могу понять, что за человек передо мной.
+Мне очень важно, чтобы близкий человек понимал мой внутренний мир и относился ко мне бережно, нежно и немного романтично - пусть даже при этом он не способен материально обеспечить меня.
+Я предпочитаю проводить отпуск в уединенном месте, подальше от цивилизации, где можно наслаждаться дикой природой и где нет больших скоплений людей.
+Я очень люблю любоваться звездным небом и вообще часто смотрю на небо, на облака, на Луну.
+Я не очень общительный человек, могу подолгу размышлять о чем-то наедине с собой, люблю предаваться мечтам в одиночестве.
+Когда я работаю, мне очень важно, чтобы обстановка была комфортной, спокойной, иначе мне трудно сосредоточиться.
+Если я понервничаю, у меня может разболеться голова или еще как-то ухудшиться самочувствие.
+Когда я ссорюсь с близким человеком, я веду себя очень эмоционально.
+Мне часто бывает грустно без видимых причин.
+Я тонок, чувствующий, чувствительный человек.
+Меня может взволновать до слез сентиментальный фильм или книга.
+Мне снятся яркие, цветные сны, которые я хорошо запоминаю.
+Вы находитесь под очень сильным влиянием Луны. Это означает, что Ваш лунный знак Зодиака влияет на Вас гораздо сильнее, чем солнечный.
+Луна влияет на Вас средне. В Вас примерно поровну сочетаются качества солнечного и лунного знаков Зодиака.
+Луна иногда влияет на Вас, а иногда это влияние не заметно. Это не означает, что Ваш лунный знак Зодиака не влияет на Вас - очень часто это свидетельствует о том, что Вы практически незнакомы со своей лунной, подсознательной частью самого себя, что Ваша интуиция еще не проснулась. Но может быть, это связано с тем, что Солнце в Вашем гороскопе гораздо сильнее Луны.
+Луна влияет на Вас слабо. Либо Ваша внутренняя сущность еще совсем не проснулась, либо Солнце в Вашем гороскопе чрезвычайно сильно.</value>
+  </data>
+</root>

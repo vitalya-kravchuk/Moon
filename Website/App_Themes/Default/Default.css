@@ -1,0 +1,364 @@
+﻿body, td, th, input, select, textarea
+{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+body
+{
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    overflow: hidden;
+}
+
+a:link
+{
+    color: #0000ff;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: #0000ff;
+    text-decoration: underline;
+}
+a:hover
+{
+    color: #ff0000;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+a:active
+{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+/* Прозрачность */
+.OpacityRhythmInfoBackground
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    -khtml-opacity: 0.3;
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    display: block;
+    zoom: 1;
+}
+
+.OpacitySubstrate
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -khtml-opacity: 0.5;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    display: block;
+    zoom: 1;
+}
+
+.OpacityContent
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    -khtml-opacity: 0.75;
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    display: block;
+    zoom: 1;
+}
+
+.OpacityDialogOverlay
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    display: block;
+    zoom: 1;
+}
+
+.OpacityLockOverlay
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -khtml-opacity: 0.7;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    display: block;
+    zoom: 1;
+}
+
+/* Звездное небо */
+.StarSkyTop
+{
+    background-image: url(Images/StarSky/top.jpg);
+}
+.StarSkyMiddle
+{
+    background-image: url(Images/StarSky/middle.jpg);
+}
+.StarSkyBottom
+{
+    background-image: url(Images/StarSky/bottom.jpg);
+}
+
+/* Панель */
+.Panel
+{
+    background-image: url(Images/Panel/panel.png);
+}
+.PanelSloganLabel
+{
+    color: white;
+    font-weight: bold;
+    cursor: default;
+}
+.PanelButtonLabel
+{
+    color: white;
+}
+.PanelButtonLeftActive
+{
+    background-image: url(Images/Panel/btnLeft.png);
+}
+.PanelButtonActive
+{
+    background-image: url(Images/Panel/btn.png);
+}
+.PanelButtonRightActive
+{
+    background-image: url(Images/Panel/btnRight.png);
+}
+
+/* Меню */
+.MenuSep
+{
+    background-image: url(Images/Menu/sep.png);
+}
+.MenuPanel
+{
+    background-image: url(Images/Menu/p.png);
+}
+.MenuPanelActive
+{
+    background-image: url(Images/Menu/a.png);
+}
+
+/* Контент */
+.ContentBorderTop
+{
+    background: url(Images/Content/b_top.jpg) 0 0 repeat-x;
+}
+.ContentBorderBottom
+{
+    background: url(Images/Content/b_bottom.jpg) 0 100% repeat-x;
+}
+.ContentTitle
+{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Georgia;
+    font-weight: bold;
+    cursor: default;
+    white-space: nowrap;
+}
+.ContentText
+{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia;
+    cursor: default;
+}
+.ContentLink
+{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia;
+}
+.ContentParagraph
+{
+    cursor: default;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Georgia;
+    background-color: white;
+    border: 1px solid #948fef;
+    color: #d40300;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+.ContentTitleRibbonR
+{
+    background-image: url(Images/Content/title_ribbon_r.jpg);
+}
+.ContentTitleRibbonEnd
+{
+    background-image: url(Images/Content/title_ribbon_end.jpg);
+}
+.ContentLine
+{
+    background-image: url(Images/Content/line.gif);
+}
+.ContentNote
+{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia;
+}
+span.ContentEdit
+{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia;
+    color: Black;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+span.ContentEdit:hover
+{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia;
+    color: #d40300;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+.ContentTextMind
+{
+    font-size: 17px;
+    font-style: italic;
+    font-family: Georgia;
+    cursor: default;
+}
+
+/* Подсказка */
+.Tooltip
+{
+    cursor: default;
+    padding: 3px 3px 3px 3px;
+    border: solid 1px black;
+    background-color: #494949;
+    color: #fffcc5;
+}
+
+/* Диалог */
+.DialogTitleStart
+{
+    background-image: url(Images/Dialog/title_start.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.DialogTitle
+{
+    background-image: url(Images/Dialog/title.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+.DialogTitleEnd
+{
+    background-image: url(Images/Dialog/title_end.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.DialogTitleCaption
+{
+    font-weight: bold;
+    color: white;
+    cursor: default;
+}
+.DialogBottomLine
+{
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+}
+.DialogContent
+{
+    cursor: default;
+}
+
+/* Ашипка */
+.MessageError
+{
+    color: Red;
+    border: solid 1px #ffc6c6;
+    padding: 3px;
+    width: 98%;
+    cursor: default;
+}
+.EditError
+{
+    background-color: #ffc6c6;
+}
+
+/* Просмотр текущего ритма */
+span.RhythmInfoTime
+{
+    color: white;
+    font-size: 14px;
+    cursor: default;
+}
+span.RhythmInfoText
+{
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    border: solid 1px black;
+    background-color: White;
+    padding: 3px 3px 3px 3px;
+    width: 240px;
+    display: inline-block;
+}
+span.RhythmInfoText:hover
+{
+    background-color: #ffe068;
+    background-image: url(Images/Rhythm/row_hover.jpg);
+    background-repeat: repeat-x;
+}
+td.RhythmInfoSep
+{
+    height: 7px;
+}
+
+/* Просмотр ритмов */
+tr.RhythmsView_month
+{
+    text-align: center;
+    cursor: default;
+    color: Gray;
+}
+tr.RhythmsView_header
+{
+    text-align: left;
+    cursor: default;
+}
+tr.RhythmsView
+{
+    text-align: left;
+    cursor: default;
+}
+tr.RhythmsView:hover
+{
+    text-align: left;
+    cursor: pointer;
+    background-color: #ffe068;
+    background-image: url(Images/Rhythm/row_hover.jpg);
+}
+tr.RhythmsView_selected
+{
+    text-align: left;
+    cursor: pointer;
+    background-color: #ffe068;
+    background-image: url(Images/Rhythm/row_selected.jpg);
+}
+td.RhythmsView
+{
+    border-bottom: solid 1px #ffe068;
+    white-space: nowrap;
+}

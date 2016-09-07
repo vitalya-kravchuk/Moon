@@ -1,0 +1,4 @@
+E:\Projects\Moon\MoonCalc\bin\Debug\MoonCalc.dll
+E:\Projects\Moon\MoonCalc\bin\Debug\MoonCalc.pdb
+E:\Projects\Moon\MoonCalc\obj\Debug\MoonCalc.dll
+E:\Projects\Moon\MoonCalc\obj\Debug\MoonCalc.pdb
